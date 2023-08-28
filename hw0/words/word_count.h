@@ -28,6 +28,8 @@ Mutators take a reference to a list as first arg.
 #ifndef word_count_h
 #define word_count_h
 
+#define ALLOC_TEST(c) {if (c == NULL) {return NULL};}
+
 #include <ctype.h>
 #include <stdbool.h>
 #include <stddef.h>
